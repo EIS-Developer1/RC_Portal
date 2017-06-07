@@ -1,5 +1,5 @@
 <?php
-
+/*Database connection*/
 $db = new mysqli('localhost:3306','root','admin', 'hrsurvey2');
 //$db = new mysqli('10.2.37.68:3306','surveydev','Pa55w0rd', 'hrsurvey2');
 if($db->connect_errno > 0){
